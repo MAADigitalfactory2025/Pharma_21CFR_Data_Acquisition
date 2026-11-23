@@ -1,0 +1,82 @@
+[
+  {
+    "module": "Machine Monitoring",
+    "screens": [
+      {
+        "screen": "Machine Parameters",
+        "actions": [
+          {
+            "code": "MACHINE_MONITORING.MACHINE_PARAMETERS.PROPOSE_LIMIT_CHANGE",
+            "label": "Propose Limit Change",
+            "implemented": true
+          },
+          {
+            "code": "MACHINE_MONITORING.MACHINE_PARAMETERS.MODIFY_LIMITS",
+            "label": "Modify Limits",
+            "implemented": true
+          },
+          {
+            "code": "MACHINE_MONITORING.MACHINE_PARAMETERS.APPROVE_LIMIT_CHANGE",
+            "label": "Approve Limit Change",
+            "implemented": true
+          }
+        ]
+      },
+      {
+        "screen": "Batch Management",
+        "actions": [
+          {
+            "code": "MACHINE_MONITORING.BATCH_MANAGEMENT.CREATE_BATCH",
+            "label": "Create Batch",
+            "implemented": true
+          },
+          {
+            "code": "MACHINE_MONITORING.BATCH_MANAGEMENT.CLOSE_BATCH",
+            "label": "Close Batch",
+            "implemented": true
+          }
+        ]
+      },
+      {
+        "screen": "Alarm Management",
+        "actions": [
+          {
+            "code": "MACHINE_MONITORING.ALARM_MANAGEMENT.ACKNOWLEDGE_ALARM",
+            "label": "Acknowledge Alarm",
+            "implemented": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "module": "Administration",
+    "screens": [
+      {
+        "screen": "Administrative Logbook",
+        "actions": [
+          {
+            "code": "ACCESS_ADMIN_LOGBOOK",
+            "label": "Access Administrative Logbook",
+            "implemented": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "module": "Reports",
+    "screens": [
+      {
+        "screen": "Excel Reports",
+        "actions": [
+          {
+            "code": "GENERATE_EXCEL_REPORT",
+            "label": "Generate Excel Reports",
+            "implemented": true
+          }
+        ]
+      }
+    ]
+  }
+]
